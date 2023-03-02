@@ -13,7 +13,7 @@ print(clients)
 
 clients_1= Client("Ivan", "Ivanov", "Moscow", 5)
 clients_2= Client("Artem", "Sidorov", "Samara", 10)
-clients_3= Client("Vladimir", "...", "Bunker", 15)
+clients_3= Client("Olga", "Petrova", "Oslo", 15)
 
 gosti_spisok=[clients_1, clients_2, clients_3]
 for guest in gosti_spisok:
