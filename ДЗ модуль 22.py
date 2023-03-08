@@ -10,7 +10,7 @@ while True:
         print("Ошибка. Ввести несколько цифр, через пробел: ")
 while True:
     try:
-        one_number = int(input("Введите любое число: "))
+        one_number = int(input("Ввести любое число: "))
         break
     except ValueError:
         print("Неверный ввод. Пожалуйста, введите число.")
